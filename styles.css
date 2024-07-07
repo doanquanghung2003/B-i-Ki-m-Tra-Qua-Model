@@ -1,0 +1,316 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 200px;
+}
+
+header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    float: left;
+    font-size: 24px;
+    color: #e3b04b;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    border: 1px solid #e3b04b;
+    color: #e3b04b;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.introduction {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.introduction h2 {
+    font-size: 28px;
+    color: #e3b04b;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.service {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.service img {
+    max-width: 100%;
+}
+
+.service h3 {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.service p {
+    font-size: 14px;
+}
+
+.service .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #e3b04b;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.service .btn:hover {
+    background: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.main-content {
+    flex: 3;
+}
+
+.main-content h2 {
+    color: #e3b04b;
+    margin-bottom: 10px;
+}
+
+.main-content img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.main-content .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: #e3b04b;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: background 0.3s;
+}
+
+.main-content .btn:hover {
+    background: #333;
+}
+
+aside {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.widget-container {
+    display: flex;
+    gap: 20px; /* Adjust the gap between widgets as needed */
+    margin-bottom: 20px; /* Space below the flex container */
+}
+
+.widget {
+    flex: 1; /* Make each widget take up an equal amount of space */
+    min-width: 200px; /* Optional: set a minimum width for each widget */
+}
+
+.widget h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e3b04b;
+}
+
+.widget ul {
+    list-style: none;
+    padding: 0;
+}
+
+.widget ul li {
+    margin-bottom: 5px;
+}
+
+.widget ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.widget ul li a:hover {
+    color: #e3b04b;
+}
+
+.related-posts {
+    clear: both; /* Ensure this widget starts on a new line */
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-col {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-col h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-col p,
+.footer-col ul,
+.footer-col li,
+.footer-col a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 5px;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #e3b04b;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 22%;
+}
+
+.footer-section h3 {
+    color: #d4a017;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+    font-size: 14px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #cccc66;
+}
+
+.footer-section button {
+    background-color: gray;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.footer-images img {
+    width: 70px;
+    height: 70px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+footer p {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 12px;
+    color: #ccc;
+}
