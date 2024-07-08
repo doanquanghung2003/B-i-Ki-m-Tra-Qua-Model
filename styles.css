@@ -342,3 +342,7 @@ footer p {
     font-size: 12px;
     color: #ccc;
 }
+
+.footer-section2 {
+    background-color: gray;
+}   
