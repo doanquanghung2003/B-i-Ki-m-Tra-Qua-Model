@@ -157,13 +157,13 @@ aside {
 
 .widget-container {
     display: flex;
-    gap: 20px; /* Adjust the gap between widgets as needed */
-    margin-bottom: 20px; /* Space below the flex container */
+    gap: 20px; 
+    margin-bottom: 20px; 
 }
 
 .widget {
-    flex: 1; /* Make each widget take up an equal amount of space */
-    min-width: 200px; /* Optional: set a minimum width for each widget */
+    flex: 1;
+    min-width: 200px; 
 }
 
 .widget h3 {
@@ -182,8 +182,7 @@ aside {
 }
 
 .widget ul li a {
-    text-decoration: none;
-    color: #333;
+    color: #a5dae1;
     transition: color 0.3s;
 }
 
@@ -192,7 +191,36 @@ aside {
 }
 
 .related-posts {
-    clear: both; /* Ensure this widget starts on a new line */
+    clear: both;
+}
+
+.related-posts ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.related-posts ul li img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.related-posts ul li div {
+    display: flex;
+    flex-direction: column;
+}
+
+.related-posts ul li h3 {
+    margin: 0 0 5px;
+    font-size: 16px;
+    color: #e3b04b;
+}
+
+.related-posts ul li p {
+    margin: 0;
+    font-size: 14px;
 }
 
 footer {
